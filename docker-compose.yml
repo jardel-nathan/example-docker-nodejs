@@ -1,0 +1,9 @@
+version: '3'
+services: 
+    app:
+      build: .
+      command: npm start
+      ports:
+        - $LOCALPORT:$DOCKERPORT
+      volumes:
+        - .:/usr/app
