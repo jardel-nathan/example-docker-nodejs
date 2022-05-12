@@ -22,7 +22,7 @@ DOCKERPORT=3000 #Porta da máquina docker que irá executar
 docker-compose build
 ```
 isso irá:
-* cirar a imagem Docker definida no Dockerfile.
+* criar a imagem Docker definida no Dockerfile.
 * instalar todas as dependências do package.json.
 * expor a porta denifina no .env.
 * exeutar `npm start` e iniciar a aplicação.
